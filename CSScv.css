@@ -1,0 +1,30 @@
+﻿.grid-container {
+    display: grid;
+}
+
+.Shay Piram{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.cv {
+    grid-column-start: 1;
+    grid-column-start: 1;
+}
+
+contact {
+    grid-column-start: 3;
+    grid-column-start: 3;
+}
+h1 {
+    text-align: center;
+}
+
+h2{
+    color:saddlebrown;
+}
+
+body{
+    background-image:url(sea.jpg);
+    background-size:cover;
+}
