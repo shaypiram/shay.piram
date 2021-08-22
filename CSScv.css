@@ -1,5 +1,8 @@
 ﻿.grid-container {
     display: grid;
+    animation-name: back;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
 }
 
 .Shay Piram{
@@ -27,4 +30,9 @@ h2{
 body{
     background-image:url(sea.jpg);
     background-size:cover;
+}
+
+@keyframes back {
+    from {background-image:url(sea.jpg)}
+    to {background-color:lightskyblue}
 }
